@@ -1,0 +1,25 @@
+{
+  "name": "magpie-anysearch",
+  "version": "0.1.0",
+  "description": "AnySearch as a magpie web search API",
+  "type": "module",
+  "main": "./index.ts",
+  "files": ["index.ts", "README.md"],
+  "homepage": "https://www.anysearch.com/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/czdtech/magpie-anysearch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/czdtech/magpie-anysearch/issues"
+  },
+  "keywords": ["magpie", "magpie-plugin", "web-search", "anysearch"],
+  "license": "MIT",
+  "magpie": {
+    "name": "AnySearch",
+    "summary": {
+      "en": "AnySearch web search API for magpie's Settings › Models › Web search.",
+      "zh": "把 AnySearch 接成 magpie 的网页搜索 API。"
+    }
+  }
+}
